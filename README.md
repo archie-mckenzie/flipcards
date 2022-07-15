@@ -8,3 +8,7 @@ TO DO
 - Shuffle function using Fisher-Yates shuffle algorithm 
 - Swipe left and right to switch between cards on mobile (Chrome and Firefox on Desktop have a device version that lets you simulate mobile)
 - Click left and right buttons to switch between cards on desktop
+
+BEST PRACTICES
+- Individual JS scripts for unrelated processes
+- Comments above each function, data structure, other places at programmer's discretion
