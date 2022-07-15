@@ -12,5 +12,5 @@ TO DO
 
 BEST PRACTICES
 - Individual JS scripts for unrelated processes
-- Comments above each function, data structure, other locations at programmer's discretion
+- Comments in JS above each function, data structure, and other locations at programmer's discretion
 - All images stored exclusively in the 'images' folder
