@@ -40,3 +40,31 @@
   .shadow-box {
     box-shadow: 2px 2px grey;
   }
+
+  .flip-button {
+    border: solid thin black;
+    width: 75px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .shuffle-button {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  
+  .svg-image {
+    margin: 0px 0px 0px 0px;
+  }
+
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .title {
+      font-size:medium;
+    }
+    .title-break {
+      display:none;
+    }
+  }

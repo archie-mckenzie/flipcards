@@ -7,18 +7,22 @@
 </head>
 <script type="text/javascript" src="flipcards.js"></script>
 <body class="body">
-    <br></br>
+    <br class="title-break"></br>
     <h1 class="title">The People's Money Card Flip Demo</h1>
-    <br></br>
+    <br class="title-break"></br>
     <div class = "flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <img src="images/front.png" alt="front" style="border-radius: 5px;"> <!--class="shadow-box" for shadow effect-->
+                <img id="front" src="images/front1.png" alt="front" style="border-radius: 5px;"> <!--class="shadow-box" for shadow effect-->
             </div>
             <div class="flip-card-back">
-                <img src="images/back.png" alt="back" style="border-radius: 5px;">
+                <img id="back" src="images/questions.png" alt="back" style="border-radius: 5px;">
             </div>
         </div>
     </div>
+    <br style="margin-bottom: 450px;"><br>
+    <button class="flip-button" onclick="goLeft(); return false;"><img src="images/arrow-left.svg" alt="Left" class="svg-image"></button>
+    <button class="flip-button shuffle-button" onclick="shuffle(); return false;"><img src="images/shuffle.svg" alt="Shuffle" class="svg-image"></button>
+    <button class="flip-button" onclick="goRight(); return false;"><img src="images/arrow-right.svg" alt="Right" class="svg-image"></button>
 </body>
 </html>
