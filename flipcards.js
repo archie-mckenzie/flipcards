@@ -19,30 +19,31 @@ var position = 0; // starting position (first card in the deck)
 // moves left in the deck
 function goLeft() {
     if (position > 0) {
+        position--;
+        if (position == 0) {
+            document.getElementById("left-button").style.display="none";
+        }
+        document.getElementById("right-button").style.display="inline-block";
         var front = document.getElementById("front");
         var back = document.getElementById("back");
-        position--;
+        
         front.src = deck[position].front;
         back.src = deck[position].back;
     }
-    if (position == 0) {
-        document.getElementById("left-button").style.display="none";
-    }
-    document.getElementById("right-button").style.display="inline-block";
 }
 
 // moves right in the deck
 function goRight() {
     if (position < deck.length -  1) {
-        var front = document.getElementById("front");
-        var back = document.getElementById("back");
         position++;
-        front.src = deck[position].front;
-        back.src = deck[position].back;
         if (position == deck.length -  1) {
             document.getElementById("right-button").style.display="none";
         }
         document.getElementById("left-button").style.display="inline-block";
+        var front = document.getElementById("front");
+        var back = document.getElementById("back");
+        front.src = deck[position].front;
+        back.src = deck[position].back;
     }
 }
 
@@ -55,6 +56,8 @@ function swap(i, j) {
 
 // Fisher-Yates shuffle algorithm implementation
 function shuffle() {
+    document.getElementById("left-button").style.display="none";
+    document.getElementById("right-button").style.display="inline-block";
     for (let i = deck.length; i > 0; i--) {
         const randInt = Math.floor(Math.random() * i);
         const index = i - 1;
@@ -65,8 +68,6 @@ function shuffle() {
     position = 0;
     front.src = deck[position].front;
     back.src = deck[position].back;
-    document.getElementById("left-button").style.display="none";
-    document.getElementById("right-button").style.display="inline-block";
 }
 
 // Testing the shuffle function to see if it is truly random
