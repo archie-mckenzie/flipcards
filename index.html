@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>The People's Money</title>
+    <noscript>Your browser does not support JavaScript!</noscript>
 </head>
 <script type="text/javascript" src="flipcards.js"></script>
 <body class="body">
@@ -21,10 +22,8 @@
         </div>
     </div>
     <br style="margin-bottom: 450px;"><br>
-    <button class="flip-button" onclick="goLeft(); return false;"><img src="images/arrow-left.svg" alt="Left" class="svg-image"></button>
+    <button class="flip-button left-button" id="left-button" onclick="goLeft(); return false;"><img src="images/arrow-left.svg" alt="Left" class="svg-image"></button>
     <button class="flip-button shuffle-button" onclick="shuffle(); return false;"><img src="images/shuffle.svg" alt="Shuffle" class="svg-image"></button>
-    <button class="flip-button" onclick="goRight(); return false;"><img src="images/arrow-right.svg" alt="Right" class="svg-image"></button>
-    <br></br>
-    <button onclick="testShuffle(); return false;">TestShuffle</button>
+    <button class="flip-button right-button" id="right-button" onclick="goRight(); return false;"><img src="images/arrow-right.svg" alt="Right" class="svg-image"></button>
 </body>
 </html>

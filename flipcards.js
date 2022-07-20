@@ -25,6 +25,10 @@ function goLeft() {
         front.src = deck[position].front;
         back.src = deck[position].back;
     }
+    if (position == 0) {
+        document.getElementById("left-button").style.display="none";
+    }
+    document.getElementById("right-button").style.display="inline-block";
 }
 
 // moves right in the deck
@@ -35,6 +39,10 @@ function goRight() {
         position++;
         front.src = deck[position].front;
         back.src = deck[position].back;
+        if (position == deck.length -  1) {
+            document.getElementById("right-button").style.display="none";
+        }
+        document.getElementById("left-button").style.display="inline-block";
     }
 }
 
@@ -57,6 +65,8 @@ function shuffle() {
     position = 0;
     front.src = deck[position].front;
     back.src = deck[position].back;
+    document.getElementById("left-button").style.display="none";
+    document.getElementById("right-button").style.display="inline-block";
 }
 
 // Testing the shuffle function to see if it is truly random
