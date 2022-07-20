@@ -4,6 +4,7 @@ A simple demo game where users can shuffle and flick through the deck of cards d
 
 TO DO
 - More animations
+- Get higher res images
 
 BEST PRACTICES
 - Comments in JS above each function, data structure, and other locations at programmer's discretion
