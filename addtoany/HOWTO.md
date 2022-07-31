@@ -18,16 +18,17 @@ Follow these steps to add this code to your web page:
 
 8. Add your card images to the JavaScript deck. Do this by writing your images into to the deck structure. 
 
-const deck = [ \n
-    { 
-        front: "images/front.png", // your front of card here
-        back: "images/back.png" // your back of card here
-    }
-}
+    const deck = [
+        { 
+            front: "images/front.png", // your front of card here
+            back: "images/back.png" // your back of card here
+        }
+    ]
 
 9. Reference the card images you want to appear when the page first loads.
 
     \<img class="flip-card-image" id="front" src="images/front.png" alt="front">
+
     \<img class="flip-card-image" id="back" src="images/back.png" alt="back"> 
 
 10. Make sure all the paths are correct. For example, if your HTML references "flipcards.css", then make sure flipcards.css is in the same folder. If your HTML references "css/flipcards.css" make sure flipcards.css is in a folder called "css". Do the same for JavaScript and images.
