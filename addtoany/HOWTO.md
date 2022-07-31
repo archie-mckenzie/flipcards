@@ -27,8 +27,8 @@ const deck = [ \n
 
 9. Reference the card images you want to appear when the page first loads.
 
-    <img class="flip-card-image" id="front" src="images/front.png" alt="front">
-    <img class="flip-card-image" id="back" src="images/back.png" alt="back"> 
+    \<img class="flip-card-image" id="front" src="images/front.png" alt="front">
+    \<img class="flip-card-image" id="back" src="images/back.png" alt="back"> 
 
 10. Make sure all the paths are correct. For example, if your HTML references "flipcards.css", then make sure flipcards.css is in the same folder. If your HTML references "css/flipcards.css" make sure flipcards.css is in a folder called "css". Do the same for JavaScript and images.
 
