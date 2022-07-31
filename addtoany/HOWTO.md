@@ -1,5 +1,7 @@
 # Open-Source Flipcards
 
+<h2> Required: beginner HTML and knowledge of directories </h2>
+
 Follow these steps to add this code to your web page:
 
 1. Reference the stylesheet (flipcards.css) by copying line 3 from addme.html into your page's HTML. 
