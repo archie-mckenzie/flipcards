@@ -1,0 +1,22 @@
+<!--ADD THE FOLLOWING IN THE HTML HEADER-->
+
+<link rel="stylesheet" type="text/css" href="flipcards.css">
+
+<!--ADD THE FOLLOWING IN THE HTML BODY-->
+<!--REMEMBER TO REPLACE IMG SRC (IN LINES 11 AND 14) WITH YOUR PREFERRED IMAGE-->
+    
+<div class = "flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img class="flip-card-image" id="front" src="images/front.png" alt="front">
+        </div>
+        <div class="flip-card-back">
+            <img class="flip-card-image" id="back" src="images/back.png" alt="back">
+        </div>
+    </div>
+</div> 
+<br style="margin-bottom: 450px;"><br>
+<button class="flip-button left-button" id="left-button" onclick="goLeft(); return false;"><img src="icons/arrow-left.svg" alt="Left" class="svg-image"></button>
+<button class="flip-button shuffle-button" onclick="shuffle(); return false;"><img src="icons/shuffle.svg" alt="Shuffle" class="svg-image"></button>
+<button class="flip-button right-button" id="right-button" onclick="goRight(); return false;"><img src="icons/arrow-right.svg" alt="Right" class="svg-image"></button>
+

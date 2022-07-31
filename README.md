@@ -1,11 +1,8 @@
-# Flipcards for NYC Civic Engagement Commission
+# Open-Source Flipcards
 
-A simple demo game where users can shuffle and flick through the deck of cards designed by the Civic Engagement Commission. Composed completely of frontend HTML, CSS, JS.
+A simple demo game where users can shuffle and flick through the deck of cards. Originally designed for the New York Civic Engagement Commission. Composed completely of frontend HTML, CSS, JS.
 
-TO DO
-- More animations
-- Get higher res images
+To add to your own web page, follow the HOWTO.md instructions in 'addtoany'
 
 BEST PRACTICES
-- Comments in JS above each function, data structure, and other locations at programmer's discretion
 - All images stored exclusively in the 'images' folder

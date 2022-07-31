@@ -1,19 +1,10 @@
-// array data structure which represents a deck of cards
-const deck = [
+const deck = [ // EXAMPLE DECK, MAKE SURE TO INSERT YOUR OWN CARDS
     {
-        front: "images/acehearts.png",
-        back: "images/back.png"
+        front: "images/front.png", // Example front image of a card
+        back: "images/back.png" // Example back image of a card
     },
     {
-        front: "images/2clubs.png",
-        back: "images/back.png"
-    },
-    {
-        front: "images/3diamonds.png",
-        back: "images/back.png"
-    },
-    {
-        front: "images/4spades.png",
+        front: "images/front2.png",
         back: "images/back.png"
     }
 ];
@@ -73,29 +64,3 @@ function shuffle() {
     front.src = deck[position].front;
     back.src = deck[position].back;
 }
-
-// Testing the shuffle function to see if it is truly random
-/* 
-function testShuffle() {
-    var one = 0;
-    var two = 0;
-    var three = 0;
-
-    const iterations = 10000;
-    
-    for (let i = 0; i < iterations; i++) {
-        var front = document.getElementById("front");
-        if (deck[0].front == "images/1front.png") {
-            one++;
-        } else if (deck[0].front == "images/2front.png") {
-            two++;
-        } else {
-            three++;
-        }
-        shuffle();
-    }
-    console.log("ONE: " + one);
-    console.log("TWO: " + two);
-    console.log("THREE: " + three);
-    console.log("TOTAL: " + iterations)
-} */

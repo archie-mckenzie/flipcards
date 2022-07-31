@@ -1,16 +1,3 @@
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: #f8f8f8;
-  }
-  
-  .title {
-      color:black;
-  }
-
-  .title-break {
-    display:none;
-  }
   
   .flip-card {
     background-color: transparent;
@@ -47,10 +34,6 @@
     transform: rotateY(180deg);
   }
 
-  .shadow-box {
-    box-shadow: 2px 2px grey;
-  }
-
   .flip-button {
     border: solid thin black;
     width: 75px;
@@ -69,15 +52,4 @@
   
   .svg-image {
     margin: 0px 0px 0px 0px;
-  }
-
-  @media only screen 
-  and (min-device-width : 320px) 
-  and (max-device-width : 480px) {
-    .title {
-      font-size:medium;
-    }
-    .title-break {
-      display:none;
-    }
   }

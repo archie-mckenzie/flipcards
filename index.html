@@ -3,27 +3,27 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>The People's Money</title>
+    <title>Flipcards</title>
     <noscript>Your browser does not support JavaScript!</noscript>
 </head>
 <script type="text/javascript" src="flipcards.js"></script>
 <body class="body">
     <br class="title-break"></br>
-    <h1 class="title">The People's Money Card Flip Demo</h1>
-    <br class="title-break"></br>
+    <h1 class="title">Flip Card Demo</h1>
+    <br class="title-break"></br> 
     <div class = "flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <img id="front" src="images/1front.png" alt="front" style="border-radius: 5px;"> <!--class="shadow-box" for shadow effect-->
+                <img class="flip-card-image" id="front" src="images/acehearts.png" alt="front">
             </div>
             <div class="flip-card-back">
-                <img id="back" src="images/questions.png" alt="back" style="border-radius: 5px;">
+                <img class="flip-card-image" id="back" src="images/back.png" alt="back">
             </div>
         </div>
-    </div>
+    </div> 
     <br style="margin-bottom: 450px;"><br>
-    <button class="flip-button left-button" id="left-button" onclick="goLeft(); return false;"><img src="images/arrow-left.svg" alt="Left" class="svg-image"></button>
-    <button class="flip-button shuffle-button" onclick="shuffle(); return false;"><img src="images/shuffle.svg" alt="Shuffle" class="svg-image"></button>
-    <button class="flip-button right-button" id="right-button" onclick="goRight(); return false;"><img src="images/arrow-right.svg" alt="Right" class="svg-image"></button>
+    <button class="flip-button left-button" id="left-button" onclick="goLeft(); return false;"><img src="images/icons/arrow-left.svg" alt="Left" class="svg-image"></button>
+    <button class="flip-button shuffle-button" onclick="shuffle(); return false;"><img src="images/icons/shuffle.svg" alt="Shuffle" class="svg-image"></button>
+    <button class="flip-button right-button" id="right-button" onclick="goRight(); return false;"><img src="images/icons/arrow-right.svg" alt="Right" class="svg-image"></button>
 </body>
 </html>
