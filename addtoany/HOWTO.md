@@ -5,6 +5,8 @@ Required:
 - Understanding of directories
 - Some playing card images you want to move online
 
+<br>
+
 Follow these steps to add this code to your web page:
 
 1. Reference the stylesheet (flipcards.css) by copying line 3 from addme.html into your page's HTML. 
