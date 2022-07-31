@@ -1,6 +1,9 @@
 # Open-Source Flipcards
 
-<h2> Required: beginner HTML and knowledge of directories </h2>
+Required:
+- Beginner HTML
+- Understanding of directories
+- Some playing card images you want to move online
 
 Follow these steps to add this code to your web page:
 
