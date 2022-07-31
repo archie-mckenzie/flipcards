@@ -18,14 +18,14 @@ Follow these steps to add this code to your web page:
 
 8. Add your card images to the JavaScript deck. Do this by writing your images into to the deck structure. 
 
-    <script> 
-    const deck = [
+<script> 
+    const deck = [ 
         { 
             front: "images/front.png", // your front of card here
             back: "images/back.png" // your back of card here
         }
     ] 
-    </script>
+</script>
 
 9. Reference the card images you want to appear when the page first loads.
 
