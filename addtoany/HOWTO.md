@@ -18,7 +18,7 @@ Follow these steps to add this code to your web page:
 
 8. Add your card images to the JavaScript deck. Do this by writing your images into to the deck structure. 
 
-    const deck = [...] 
+    <script> const deck = [...] 
 
 9. Reference the card images you want to appear when the page first loads.
 
